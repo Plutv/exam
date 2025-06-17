@@ -15,9 +15,8 @@ public class TeacherServiceImpl implements TeacherService {
     @Autowired
     private TeacherMapper teacherMapper;
 
-    @Override
-    public IPage<Teacher> findAll(Page<Teacher> page) {
-        return teacherMapper.findAll(page);
+    public IPage<Teacher> findTeacher(Page<Teacher> page) {
+        return teacherMapper.findTeacher(page);
     }
 
     @Override

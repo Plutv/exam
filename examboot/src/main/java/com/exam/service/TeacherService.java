@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface TeacherService {
 
-    IPage<Teacher> findAll(Page<Teacher> page);
+    IPage<Teacher> findTeacher(Page<Teacher> page);
 
     public List<Teacher> findAll();
 

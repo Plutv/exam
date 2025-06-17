@@ -19,7 +19,7 @@
       </el-form-item>
       <el-form-item label="考试日期">
         <el-col :span="11">
-          <el-date-picker placeholder="选择日期" v-model="form.examDate" style="width: 100%;"></el-date-picker>
+          <el-date-picker placeholder="选择日期" type="date" v-model="form.examDate" style="width: 100%;"></el-date-picker>
         </el-col>
       </el-form-item>
       <el-form-item label="持续时间">

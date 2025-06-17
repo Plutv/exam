@@ -5,7 +5,7 @@
     <el-row class="main-container">
       <el-col :lg="8" :xs="16" :md="10" :span="10">
         <div class="top">
-          <i class="iconfont icon-kaoshi"></i><span class="title">ncwu在线考试系统</span>
+          <i class="iconfont icon-kaoshi"></i><span class="title">在线考试系统</span>
         </div>
         <div class="bottom">
           <div class="container">
@@ -34,13 +34,9 @@
     </el-row>
     <el-row class="footer">
       <el-col>
-        <p class="msg2">ncwu在线考试系统</p>
+        <p class="msg2">在线考试系统</p>
       </el-col>
     </el-row>
-    <section class="remind">
-      <span>超级管理员账号：9999</span>
-      <span>密码是：123456</span>
-    </section>
     
   </div>
 </template>

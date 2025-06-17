@@ -22,7 +22,7 @@ public class TeacherController {
     @GetMapping("/teachers/{page}/{size}")
     public ApiResult findAll(@PathVariable Integer page, @PathVariable Integer size){
         Page<Teacher> teacherPage = new Page<>(page,size);
-        IPage<Teacher> teacherIPage = teacherService.findAll(teacherPage);
+        IPage<Teacher> teacherIPage = teacherService.findTeacher(teacherPage);
 
         return ApiResultHandler.buildApiResult(200,"查询所有教师",teacherIPage);
     }
